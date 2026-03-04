@@ -80,19 +80,22 @@ article {
 }
 
 .sobre .textos {
-    max-width: 500px;
+    max-width: 600px;
+    text-indent: 30px;
     text-align: justify;
     margin-right: 50px;
     line-height: 30px;
+    font-size: 23px;
 }
 
 .sobre .textos h1 {
     font-size: 36px;
+    text-align: start;
     margin-bottom: 20px;
 }
 
 .sobre img {
-    max-width: 700px;
+    max-width: 750px;
     margin-top: 30px;
     border-radius: 20px;
     box-shadow: #0000005d 2px 2px 10px;
@@ -102,8 +105,9 @@ article {
     display: flex;
     justify-content: center;
     padding: 50px 20px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
+    font-size: 27px;
 }
 
 .beneficios .box-beneficios {
@@ -113,14 +117,164 @@ article {
 }
 
 .beneficios .box-beneficios .beneficio {
-    background-color: white;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: #0000005d 2px 2px 10px;
-    max-width: 600px;
+    max-width: 700px;
+    text-align: center;
 }
 
 .beneficios .box-beneficios .beneficio h2 {
-    font-size: 28px;
+    font-size: 40px;
     margin-bottom: 20px;
+}
+
+.banner-desconto {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner-desconto a {
+    width: 99%;
+}
+
+.banner-desconto a img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: #0000005d 2px 2px 10px;
+}
+
+section.planos {
+    background-color: #111111;
+    color: white;
+    display: block;
+    padding: 50px 20px;
+    margin: auto;
+    font-size: 25px;
+}
+
+section.planos .titulo {
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+section.planos .planos-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+section.planos .planos-container .plano {
+    padding: 40px;
+    border-radius: 10px;
+    width: 700px;
+    height: 600px;
+    text-align: center;
+    background-color: rgb(88, 88, 88);
+    box-shadow: #0000005d 2px 2px 10px;
+}
+
+.plano h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.plano p {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.plano .preco {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.plano .botao-assinar {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--vermelho-principal);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.plano .botao-assinar:hover {
+    background-color: #ce0000;
+}
+
+.plano ul {
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+}
+
+.plano ul li {
+    text-align: left;
+}
+
+.plano ul li::before {
+    content: "✓";
+    color: yellow;
+    margin-right: 10px;
+}
+
+section.localizacao {
+    display: block;
+    justify-content: center;
+    padding: 50px 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+section.localizacao .titulo {
+    font-size: 38px;
+    text-align: start;
+    margin-top: 10px;
+}
+
+section.localizacao .localizacao-container {
+    display: flex;
+    align-items: center;
+}
+
+section.localizacao .localizacao-container .textos {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+section.localizacao .localizacao-container p {
+    max-width: 500px;
+    line-height: 30px;
+}
+
+section.localizacao .localizacao-container .mapa{
+    display: flex;
+    flex: 1
+}
+
+section.localizacao .localizacao-container .mapa iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: #0000005d 2px 2px 10px;
+}
+
+.endereco {
+    font-size: 22px;
+    margin-top: 30px;
 }
