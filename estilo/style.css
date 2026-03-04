@@ -1,0 +1,126 @@
+
+
+:root {
+    --vermelho-principal: #DF171A;
+    --vermelho-escuro: #A90000;
+    --vermelho-claro: #da5757;
+    --preto-principal: #000000;
+    --preto-claro: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    color: #fff;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+header nav ul li a:hover {
+    color: var(--vermelho-principal);
+}
+
+.logo img {
+    width: 150px;
+}
+
+.banner div {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../imagens/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.banner div p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+article {
+    font-size: 22px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.sobre .textos {
+    max-width: 500px;
+    text-align: justify;
+    margin-right: 50px;
+    line-height: 30px;
+}
+
+.sobre .textos h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.sobre img {
+    max-width: 700px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: #0000005d 2px 2px 10px;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.beneficios .box-beneficios {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.beneficios .box-beneficios .beneficio {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: #0000005d 2px 2px 10px;
+    max-width: 600px;
+}
+
+.beneficios .box-beneficios .beneficio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
