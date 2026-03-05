@@ -28,7 +28,7 @@ header {
     align-items: center;
     background-color: #111111;
     color: #fff;
-    padding: 0px 20px;
+    padding: 0px 30px 0px 20px;
     text-align: center;
 }
 
@@ -282,4 +282,79 @@ section.localizacao .localizacao-container .mapa iframe {
 .endereco {
     font-size: 22px;
     margin-top: 30px;
+}
+
+section.contato {
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+}
+
+section.contato .titulo-container {
+    text-align: center;
+    padding: 30px;
+    padding-top: 50px;
+    color: white;
+}
+
+section.contato .titulo-container .titulo {
+    font-size: 38px;
+}
+
+section.contato .contato-container {
+    display: flex;
+    justify-content: center;
+}
+
+section.contato .contato-container .contato {
+    margin: 30px;
+    padding: 30px;
+    height: 350px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 20px;
+}
+
+section.contato .contato-container .contato i {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+section.contato .contato-container .contato h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+section.contato .contato-container .contato p {
+    font-size: 22px;
+    background-color: var(--vermelho-principal);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.2s ease;
+    margin-top: 10px;
+}
+
+section.contato .contato-container .contato .clique {
+    background-color: transparent;
+    color: rgb(226, 226, 226);
+    font-size: 18px;
+}
+
+section.contato .contato-container .contato p:hover {
+    transform: scale(1.1);
+}
+
+section.contato .contato-container .contato a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
 }
