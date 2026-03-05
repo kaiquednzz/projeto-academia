@@ -85,6 +85,7 @@ article {
 }
 
 .sobre .textos {
+    width: 100%;
     max-width: 600px;
     text-indent: 30px;
     text-align: justify;
@@ -100,6 +101,7 @@ article {
 }
 
 .sobre img {
+    width: 100%;
     max-width: 750px;
     margin-top: 30px;
     border-radius: 20px;
@@ -359,7 +361,24 @@ footer {
     font-size: 20px;
 }
 
+@media (max-width: 1250px) {
+    .planos-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
+@media (max-width: 1120px) {
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre .textos {
+        margin-right: 0;
+        text-align: center;
+    }
+}
 
 
 
@@ -473,8 +492,10 @@ footer {
 
     section.planos .planos-container {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 90%;
+        max-width: 300px;
+        margin-right: 27px;
+        font-size: 18px;
     }
 
     section.planos .planos-container .plano {
