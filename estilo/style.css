@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -44,6 +48,7 @@ header nav ul li a {
 header nav ul li a:hover {
     color: var(--vermelho-principal);
 }
+
 
 .logo img {
     width: 150px;
