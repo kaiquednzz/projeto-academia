@@ -358,3 +358,127 @@ footer {
     padding: 40px;
     font-size: 20px;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre .textos {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .beneficios .box-beneficios {
+        flex-direction: column;
+    }
+
+    section.planos .planos-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.planos .planos-container .plano {
+        width: 650px;
+        height: auto;
+        text-align: left;
+    }
+
+    .plano .botao-assinar {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    section.localizacao .localizacao-container {
+        display: block;
+        margin: auto;
+        min-width: 600px;
+    }
+
+    section.localizacao .localizacao-container .textos {
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: justify;
+
+    }
+
+    section .contato .contato-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section .contato .contato-container .contato {
+        width: 50px;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner div {
+        height: 500px;
+        font-size: 20px;
+    }
+
+    .banner div p {
+        font-size: 18px;
+        max-width: 250px;
+    }
+
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre .textos {
+        text-align: left;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .sobre img {
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .beneficios {
+        margin-top: 0px;
+    }
+
+    .box-beneficios .beneficio {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .box-beneficios .beneficio h2 {
+        font-size: 20px;
+    }
+
+    .beneficios .box-beneficios {
+        flex-direction: column;
+    }
+
+    section.planos .planos-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.planos .planos-container .plano {
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
