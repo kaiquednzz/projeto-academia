@@ -24,6 +24,7 @@ body {
 
 header {
     display: flex;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
     background-color: #111111;
@@ -38,7 +39,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 15px;
     text-decoration: none;
     color: white;
@@ -46,12 +47,14 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: var(--vermelho-principal);
+    background-color: rgb(43, 43, 43);
+    padding: 8px;
+    border-radius: 5px;
 }
 
 
 .logo img {
-    width: 150px;
+    width: 80px;
 }
 
 .banner div {
@@ -82,22 +85,25 @@ article {
     align-items: center;
     justify-content: center;
     padding: 50px 20px;
+    margin: auto;
+    max-width: 1100px;
 }
 
 .sobre .textos {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     text-indent: 30px;
     text-align: justify;
     margin-right: 50px;
-    line-height: 30px;
-    font-size: 23px;
+    line-height: 25px;
+    font-size: 20px;
 }
 
 .sobre .textos h1 {
     font-size: 36px;
     text-align: start;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .sobre img {
@@ -121,6 +127,7 @@ article {
     display: flex;
     justify-content: center;
     gap: 40px;
+    font-size: 25px;
 }
 
 .beneficios .box-beneficios .beneficio {
@@ -131,7 +138,7 @@ article {
 }
 
 .beneficios .box-beneficios .beneficio h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -158,11 +165,11 @@ section.planos {
     display: block;
     padding: 50px 20px;
     margin: auto;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 section.planos .titulo {
-    font-size: 38px;
+    font-size: 32px;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -173,6 +180,7 @@ section.planos .planos-container {
     gap: 40px;
     max-width: 1300px;
     margin: auto;
+    font-size: 20px;
 }
 
 section.planos .planos-container .plano {
@@ -183,16 +191,17 @@ section.planos .planos-container .plano {
     text-align: center;
     background-color: rgb(88, 88, 88);
     box-shadow: #0000005d 2px 2px 10px;
+    font-size: 20px;
 }
 
 .plano h2 {
-    font-size: 38px;
+    font-size: 32px;
     margin-bottom: 20px;
     text-align: start;
 }
 
 .plano p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
     text-align: left;
     margin-bottom: 10px;
@@ -242,14 +251,15 @@ section.localizacao {
     display: block;
     justify-content: center;
     padding: 50px 20px;
-    max-width: 1300px;
+    max-width: 1100px;
     margin: auto;
 }
 
 section.localizacao .titulo {
-    font-size: 38px;
+    font-size: 36px;
     text-align: start;
     margin-top: 10px;
+    font-weight: 400;
 }
 
 section.localizacao .localizacao-container {
@@ -261,6 +271,8 @@ section.localizacao .localizacao-container .textos {
     display: flex;
     flex: 1;
     flex-direction: column;
+    font-size: 20px;
+    text-align: justify;
 }
 
 section.localizacao .localizacao-container p {
@@ -282,7 +294,7 @@ section.localizacao .localizacao-container .mapa iframe {
 }
 
 .endereco {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 30px;
 }
 
